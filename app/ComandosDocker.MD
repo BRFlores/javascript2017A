@@ -1,4 +1,4 @@
-#Comandos docker
+# Comandos docker
 ## docker ps
 Este comando listaba los contenedores que estan corriendo
 ```
