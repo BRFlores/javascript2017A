@@ -18,6 +18,23 @@ Las herramientas que vamos a usar son:
 ## Mi primer link
 [ir a google](https://www.google.com)
 ![imagen de github](https://image.freepik.com/iconos-gratis/github-silueta-caracter_318-40485.jpg)
+
+## Codigo
+Para utilizar codigo necesitamos tres tildes al reves ´´´tanto al inicio como al final de el codigo que vamos a escribir
+
+```
+String hola= "hola mundo"
+```
+```
+>>sails new Aplication
+>> cd Aplicacion
+>> sails lift
+2
+```
+
+```javascript
+var a=5;
+```
 ## header 2
 ### header 3
 a [Sails](http://sailsjs.org) application
