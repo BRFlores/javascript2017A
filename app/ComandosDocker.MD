@@ -37,8 +37,21 @@ Este comando **elimina** los o el conteneedor que este **detenidos**
 ## Mysql
 Para utilizar docker con mysql vamos a utilizar el siguiente comando:
 ```
->> docker run --name harold -e
-MYSQL_ROOT_PASSWORD=123456 -e
+>> docker run --name harold -e MYSQL_ROOT_PASSWORD=123456 -e
 MYSQL_DATABASE=harold -e MYSQL_USER=harold -e
 MYSQL_PASSWORD=123456 -p 3306:3306 -d mysql
 ```
+### --name harold
+el nombre del contenedor
+### -e MYSQL_ROOT_PASSWORD=
+
+### -e MYSQL_DATABASE=
+-e le dice al docker que es una variable de entorno
+El nombre de la **base de datos**
+
+## Postgresql
+```
+>> docker run --name postgresharold -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=harold -e  POSTTGRES_DB=politecnica -p 5432:5432 -d postgres
+```
+
+
