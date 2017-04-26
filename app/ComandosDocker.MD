@@ -51,7 +51,9 @@ El nombre de la **base de datos**
 
 ## Postgresql
 ```
->> docker run --name postgresharold -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=harold -e  POSTTGRES_DB=politecnica -p 5432:5432 -d postgres
+>> docker run --name postgresharold -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=harold -e  POSTGRES_DB=politecnica -p 5432:5432 -d postgres
 ```
-
-
+## MongoDB
+```
+>> docker run --name haroldmongo -p 27017:27017 -d mongo
+```
