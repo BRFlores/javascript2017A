@@ -15,3 +15,8 @@ el comando **lift** nos ayuda a levantar un **proyecto de sails**
  >> sails lift
  ```
  - Hay en cuenta que debe ejecutarse dentro de la carpeta de la aplicacion previamente creada con el comando **new**
+## sails generate api
+```
+>> sails generate api usuario
+```
+son el nombre de las tablas en las bases de datos
