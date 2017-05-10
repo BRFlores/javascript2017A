@@ -11,8 +11,10 @@ let notasDeSupletorio = arreglo
 })
 .filter((valor)=>{
     return valor>=1;
+}).some((valor)=>{
+    return valor>0.5
 })
-
+//every and, some or
 
 
 console.log(notasDeSupletorio);
