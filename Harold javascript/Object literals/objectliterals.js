@@ -14,3 +14,5 @@ var nuevaFuncion = (nombre, apellido)=> {
 }
 
 nuevaFuncion('Harold', 'Flores')
+
+// let es el nuevo var
