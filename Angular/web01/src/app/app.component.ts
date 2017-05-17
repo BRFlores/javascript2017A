@@ -12,6 +12,8 @@ usuario:usuarioInt= {
   nombre:"Harold",
   apellido:"Flores"
 }
+url:string="https://angular.io";
+source:string= "https://carlosazaustre.es/blog/content/images/2015/02/square_odd9l7.png";
 constructor(){
   console.log("constructor");
   this.holaMundo();

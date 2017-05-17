@@ -6,6 +6,16 @@
 <h1>
   Mi primera aplicacion en Angular
 </h1>
-<p>gracias por visitarnos</p>
+SI HACER ESTO
+<p>gracias por visitarnos {{usuario.nombre}} {{usuario.apellido}}</p>
 
+NO HACER ESTO
 <h3>Desarrollado por: {{usuario.nombre}}</h3>
+<h4>Desarrollado por: {{saludar(usuario.nombre, usuario.apellido)}}</h4>
+NO USAR
+<a href="{{url}}">
+<img src="https://carlosazaustre.es/blog/content/images/2015/02/square_odd9l7.png">
+</a>
+<a [href]="url">
+  <img [src]="source">
+</a>
