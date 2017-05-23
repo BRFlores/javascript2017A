@@ -1,0 +1,12 @@
+
+p {
+  border:10px;
+  border-style:solid;
+  border-color: #a3daff;
+}
+#verde {
+  border-color: #0c8da0;
+}
+.rojo{
+  color: red;
+}
