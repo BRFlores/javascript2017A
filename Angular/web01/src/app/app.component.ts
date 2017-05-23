@@ -9,15 +9,21 @@ import {log} from "util";
 })
 export class AppComponent {
 usuario:usuarioInt= {
-  nombre:"Harold",
+  nombre:"",
   apellido:"Flores"
 }
 url:string="https://angular.io";
 source:string= "https://carlosazaustre.es/blog/content/images/2015/02/square_odd9l7.png";
+parrafo:string;
 constructor(){
-  console.log("constructor");
-  this.holaMundo();
-  console.log(this.saludar(this.usuario.nombre, this.usuario.apellido));
+  this.usuario.nombre="Bryan";
+  this.parrafo="me mima mi mama";
+  setTimeout(()=> {
+    this.usuario.nombre="Harold"
+  },3000)
+  //console.log("constructor");
+  //this.holaMundo();
+  //console.log(this.saludar(this.usuario.nombre, this.usuario.apellido));
 }
 holaMundo(){
   console.log("hola mundo");
