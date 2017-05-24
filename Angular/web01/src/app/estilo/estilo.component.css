@@ -8,5 +8,9 @@ p {
   border-color: #0c8da0;
 }
 .rojo{
-  color: red;
+  color: white;
+}
+
+p:hover{
+  border-color: white;
 }
