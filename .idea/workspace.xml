@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35f699d7-b339-4134-8425-dc9e4203a8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/Aplicacion/src/app/app.component.ts" afterPath="$PROJECT_DIR$/angular/Aplicacion/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/Aplicacion/src/app/app.module.ts" afterPath="$PROJECT_DIR$/angular/Aplicacion/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/Aplicacion/src/index.html" afterPath="$PROJECT_DIR$/angular/Aplicacion/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/Aplicacion/src/app/pagina2/pagina2.component.html" afterPath="$PROJECT_DIR$/angular/Aplicacion/src/app/pagina2/pagina2.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="pagina2.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular/Aplicacion/src/app/pagina2/pagina2.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="239" lean-forward="false" selection-start-line="9" selection-start-column="239" selection-end-line="9" selection-end-column="239" />
+            <state relative-caret-position="340">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -54,6 +52,8 @@
                 <element signature="n#style#0;n#font#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#b#0;n#font#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -557,12 +557,12 @@
       <workItem from="1495907237426" duration="91000" />
       <workItem from="1495907346544" duration="98000" />
       <workItem from="1495907556599" duration="13406000" />
-      <workItem from="1495923467661" duration="27652000" />
+      <workItem from="1495923467661" duration="29609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41247000" />
+    <option name="totallyTimeSpent" value="43204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/Aplicacion/src/app/pagina2/pagina2.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="239" lean-forward="false" selection-start-line="9" selection-start-column="239" selection-end-line="9" selection-end-column="239" />
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -908,6 +908,8 @@
             <element signature="n#style#0;n#font#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#b#0;n#font#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
