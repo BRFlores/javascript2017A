@@ -1,0 +1,45 @@
+<!--<h1>
+  {{title}}
+  {{nombre}}
+  {{apellido}}
+</h1>-->
+<h1>
+  Mi primera aplicacion en Angular
+</h1>
+<h2>property binding</h2>
+<h3>Primera forma con llaves dobles</h3>
+<p>
+  {{parrafo}}
+</p>
+<h3>segunda forma con []</h3>
+<p [style.color]="'white'" [style.background]="background" [innerText]="parrafo"></p>
+<input type="text" [value]="parrafo">
+<app-estilo></app-estilo>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+SI HACER ESTO
+<p>gracias por visitarnos {{usuario.nombre}} {{usuario.apellido}}</p>
+
+NO HACER ESTO
+<h3>Desarrollado por: {{usuario.nombre}}</h3>
+<h4>Desarrollado por: {{saludar(usuario.nombre, usuario.apellido)}}</h4>
+NO USAR
+<a href="{{url}}">
+<img src="https://carlosazaustre.es/blog/content/images/2015/02/square_odd9l7.png">
+</a>
+
+SI HACER ASI
+<a [href]="url">
+  <img [src]="source">
+</a>
