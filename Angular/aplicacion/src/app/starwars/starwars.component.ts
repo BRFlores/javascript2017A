@@ -12,7 +12,7 @@ export class StarwarsComponent implements OnInit {
 
 
   //planetas=[];
-  planetas : PlanetaStarWars[] =[];
+  planetas : planetasStarWars[] =[];
 
 
   constructor(private _http:Http) {
@@ -48,7 +48,7 @@ export class StarwarsComponent implements OnInit {
   }
 }
 
-interface PlanetaStarWars{
+interface planetasStarWars{
   name: string;
   rotation_period: string;
   orbital_period: string;
