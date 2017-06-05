@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { Pagina1Component } from './pagina1/pagina1.component';
 import { Pagina2Component } from './pagina2/pagina2.component';
+import { StarwarsComponent } from './starwars/starwars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Pagina1Component,
-    Pagina2Component
+    Pagina2Component,
+    StarwarsComponent
   ],
   imports: [
     BrowserModule,
@@ -19,6 +21,6 @@ import { Pagina2Component } from './pagina2/pagina2.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [Pagina2Component]
+  bootstrap: [StarwarsComponent]
 })
 export class AppModule { }
