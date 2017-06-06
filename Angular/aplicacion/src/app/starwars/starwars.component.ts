@@ -37,6 +37,14 @@ export class StarwarsComponent implements OnInit {
           let respuesta=response.json();
           console.log("Holaa",respuesta.next);
           this.planetas=respuesta.results;
+          this.planetas=this.planetas.map(
+            (planeta)=>{
+
+              planeta.imagen="/assests/imagenes/1.jpg";
+            return planeta;
+          }
+
+          );
         },
         (error)=>{
           console.log("Error: ",error);
@@ -63,5 +71,5 @@ interface planetasStarWars{
   created: Date;
   edited: Date;
   url: string;
-
+  imagen?: string;
 }

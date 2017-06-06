@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { Pagina1Component } from './pagina1/pagina1.component';
 import { Pagina2Component } from './pagina2/pagina2.component';
 import { StarwarsComponent } from './starwars/starwars.component';
+import { SwComponent } from './componentes/sw/sw.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Pagina1Component,
     Pagina2Component,
-    StarwarsComponent
+    StarwarsComponent,
+    SwComponent
   ],
   imports: [
     BrowserModule,
