@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {planetasStarWarsInterface} from "../../interfaces/PlanetaStarWars";
+import {planetStarWarsInterface} from "../../interfaces/PlanetaStarWars";
 
 @Component({
   selector: 'app-sw',
@@ -8,12 +8,12 @@ import {planetasStarWarsInterface} from "../../interfaces/PlanetaStarWars";
 })
 export class SwComponent implements OnInit {
 
-  @Input() planeta:planetasStarWarsInterface
+  @Input() planeta:planetStarWarsInterface
   constructor() { }
 
   ngOnInit() {
 
-    console.log(`El valor del planeta es:`,this.planeta);
+    console.log('El valor del planeta es:',this.planeta);
 
   }
 

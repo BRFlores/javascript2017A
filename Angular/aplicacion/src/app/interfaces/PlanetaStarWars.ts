@@ -1,4 +1,4 @@
-export interface planetasStarWarsInterface{
+export interface planetStarWarsInterface{
   name: string;
   rotation_period: string;
   orbital_period: string;
@@ -15,6 +15,4 @@ export interface planetasStarWarsInterface{
   url: string;
   imagen?: string;
 }
-/**
- * Created by ASUS on 06/06/2017.
- */
+

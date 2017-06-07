@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
-import {planetasStarWarsInterface} from "../interfaces/PlanetaStarWars";
+import {planetStarWarsInterface} from "../interfaces/PlanetaStarWars";
 
 
 @Component({
@@ -14,7 +14,7 @@ export class StarwarsComponent implements OnInit {
 
 
   //planetas=[];
-  planetas : planetasStarWarsInterface[]=[];
+  planetas : planetStarWarsInterface[]=[];
 
 
   constructor(private _http:Http) {
@@ -37,7 +37,7 @@ export class StarwarsComponent implements OnInit {
           console.log("Response: ",response);
           console.log(response.json());
           let respuesta=response.json();
-          console.log("Holaa",respuesta.next);
+          console.log("ind  ",respuesta.next);
           this.planetas=respuesta.results;
           this.planetas=this.planetas.map(
             (planeta)=>{
