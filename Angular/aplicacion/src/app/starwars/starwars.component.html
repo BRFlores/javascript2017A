@@ -1,3 +1,16 @@
+<h1>Bienvenidos</h1>
+
+  <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
+
+ <div class="row">
+      <div class="col-sm-4"
+            *ngFor="let planeta of planetas;let i = index;">
+
+   <app-sw></app-sw>
+   </div>
+  </div>
+
+<!--
 <body style="background-color: black">
 
 <div class="container" >
@@ -15,7 +28,7 @@
 
   <br>
   <ul class="lista">
-    <li *ngFor="let planeta of planetas"> <!-- primer planeta es la variable y el segundo es el vector planeta-->
+    <li *ngFor="let planeta of planetas"> <!-- primer planeta es la variable y el segundo es el vector planeta --
 
       <div class="row">
         <div class="col-sm-6">
@@ -82,6 +95,7 @@
         <p>Editado: {{planeta.edited}}</p>
         <p>URL: {{planeta.url}}</p>
         <p>imagenes: {{planeta.imagen}}</p>
+
         <br>
         <br>
       </div>
@@ -89,4 +103,6 @@
     </li>
   </ul>
 </div>
+
 </body>
+-->

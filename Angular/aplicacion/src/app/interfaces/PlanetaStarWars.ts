@@ -1,4 +1,4 @@
-interface planetasStarWars{
+export interface planetasStarWarsInterface{
   name: string;
   rotation_period: string;
   orbital_period: string;
