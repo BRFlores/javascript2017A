@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35f699d7-b339-4134-8425-dc9e4203a8a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.html" afterPath="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts" afterPath="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts" afterPath="$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html" afterPath="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts" afterPath="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,23 +28,23 @@
       <file leaf-file-name="starwars.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
-                <marker date="1496849171969" expanded="false" signature="285:308" ph="..." />
-                <marker date="1496849171969" expanded="false" signature="605:729" ph="..." />
-                <marker date="1496849171969" expanded="false" signature="1037:1071" ph="..." />
-                <marker date="1496849171969" expanded="false" signature="3575:3591" ph="..." />
+                <marker date="1496862146949" expanded="false" signature="308:331" ph="..." />
+                <marker date="1496862146949" expanded="false" signature="628:752" ph="..." />
+                <marker date="1496862146949" expanded="false" signature="1060:1094" ph="..." />
+                <marker date="1496862146949" expanded="false" signature="3598:3614" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starwars.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="starwars.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -58,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="42" />
               <folding>
                 <element signature="e#348#389#0" expanded="false" />
               </folding>
@@ -66,19 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starwars.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sw.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sw.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -92,53 +78,10 @@
         <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-                <marker date="1496848122212" expanded="true" signature="750:753" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,13 +110,13 @@
         <option value="$PROJECT_DIR$/angular/Aplicacion/src/index.html" />
         <option value="$PROJECT_DIR$/angular/Aplicacion/src/app/pagina2/pagina2.component.html" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.css" />
-        <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/index.html" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.html" />
         <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html" />
+        <option value="$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts" />
       </list>
     </option>
   </component>
@@ -207,6 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,8 +326,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,11 +439,12 @@
       <workItem from="1496691521513" duration="5709000" />
       <workItem from="1496779475500" duration="6526000" />
       <workItem from="1496845807621" duration="3390000" />
+      <workItem from="1496859164473" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76252000" />
+    <option name="totallyTimeSpent" value="78533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,6 +457,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -578,7 +523,7 @@
         <state relative-caret-position="357">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
             <marker date="1496848122212" expanded="true" signature="750:753" ph="{...}" />
           </folding>
         </state>
@@ -638,7 +583,7 @@
         <state relative-caret-position="357">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
             <marker date="1496848122212" expanded="true" signature="750:753" ph="{...}" />
           </folding>
         </state>
@@ -712,7 +657,7 @@
         <state relative-caret-position="289">
           <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
             <marker date="1496848122212" expanded="true" signature="750:753" ph="{...}" />
           </folding>
         </state>
@@ -845,30 +790,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="272">
           <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="false" />
             <marker date="1496848122212" expanded="true" signature="750:753" ph="{...}" />
           </folding>
         </state>
@@ -887,7 +814,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,35 +827,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts">
+    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#348#389#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts">
+    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/componentes/sw/sw.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <marker date="1496849171969" expanded="false" signature="285:308" ph="..." />
-            <marker date="1496849171969" expanded="false" signature="605:729" ph="..." />
-            <marker date="1496849171969" expanded="false" signature="1037:1071" ph="..." />
-            <marker date="1496849171969" expanded="false" signature="3575:3591" ph="..." />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -938,6 +850,39 @@
         <state relative-caret-position="17">
           <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/interfaces/PlanetaStarWars.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="42" />
+          <folding>
+            <element signature="e#348#389#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <marker date="1496862146949" expanded="false" signature="308:331" ph="..." />
+            <marker date="1496862146949" expanded="false" signature="628:752" ph="..." />
+            <marker date="1496862146949" expanded="false" signature="1060:1094" ph="..." />
+            <marker date="1496862146949" expanded="false" signature="3598:3614" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/aplicacion/src/app/starwars/starwars.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
+import {planetasStarWarsInterface} from "../interfaces/PlanetaStarWars";
+
 
 @Component({
   selector: 'app-starwars',
@@ -12,7 +14,7 @@ export class StarwarsComponent implements OnInit {
 
 
   //planetas=[];
-  planetas : planetasStarWars[] =[];
+  planetas : planetasStarWarsInterface[]=[];
 
 
   constructor(private _http:Http) {
@@ -56,7 +58,7 @@ export class StarwarsComponent implements OnInit {
   }
 }
 
-interface planetasStarWars{
+/*interface planetasStarWars{
   name: string;
   rotation_period: string;
   orbital_period: string;
@@ -72,4 +74,4 @@ interface planetasStarWars{
   edited: Date;
   url: string;
   imagen?: string;
-}
+}*/
