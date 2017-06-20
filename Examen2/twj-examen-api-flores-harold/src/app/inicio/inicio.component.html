@@ -1,0 +1,11 @@
+<h2>Planetas</h2>
+<button class="btn btn-outline-success" (click)="cargarPeliculas()">Cargar Planetas</button>
+<br>
+<div class="row">
+
+  <div class="col-sm-4" *ngFor="let planetaVariable of peliculas; let i=index; ">
+    <ul>
+    <app-pelicula [pelicula]="planetaVariable"></app-pelicula>
+    </ul>
+  </div>
+</div>

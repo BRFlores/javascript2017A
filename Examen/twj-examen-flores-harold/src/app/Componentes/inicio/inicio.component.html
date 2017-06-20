@@ -1,0 +1,49 @@
+<body style="background-color: #66512c">
+<div class="container">
+  <!--
+  <pre>
+    {{artistas | json}}
+  </pre>
+  -->
+
+<BR>
+<div class="col-sm-12" align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbOUIWXNw_9hlkcv4COyPibq0P0ijtx1kkMZfl1qiQpLAlPNDg" style="width: 800px"></div>
+  <br>  <br>  <br>  <br><br>  <br>  <br>  <br><br>  <br>  <br>  <br><br>  <br>  <br>  <br><br>  <br>  <br>  <br><br>
+
+  <div class="col-md-12" align="center" style="font-size: xx-large; font-weight: bolder; color: white; font-style: italic"><strong>ARTISTAS</strong></div> <BR>
+  <div class="col-md-4">
+  <input class="form-control"
+         placeholder="Ingrese nuevo Nombre"
+         [(ngModel)]="artista.Nombre" type="text"
+  >
+  </div>
+  <div class="col-md-4">
+  <input class="form-control"
+         placeholder="Ingrese nuevo Estilo"
+         [(ngModel)]="artista.Estilo" type="text"
+  >
+  </div>
+  <div class="col-md-4">
+  <input class="form-control"
+         placeholder="Ingrese nuevo País de residencia"
+         [(ngModel)]="artista.PaisResidencia" type="text"
+  >
+  </div>
+  <br> <br> <br> <br>
+
+  <div class="col-sm-13" align="center">
+  <button class="btn btn-primary btn-lg btn-block" (click)="crearArtista()" >Crear Artista</button> <br>
+  </div>
+
+  <div *ngFor="let artista of artistas">
+    <ul>
+      <li>
+   <!-- <output type="text" style="color: black; font-weight: bolder; font-size: large" >Nombre: {{artista.Nombre}}</output>
+    <output type="text" style="color: black" >Estilo: {{artista.Estilo}}</output>
+    <output type="text" style="color: black">Pais de residencia: {{artista.PaisResidencia}}</output> -->
+        <app-artistas [artistass]="artista"></app-artistas>
+      </li>
+    </ul>
+    </div>
+</div>
+</body>

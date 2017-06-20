@@ -1,0 +1,39 @@
+import { Component, OnInit } from '@angular/core';
+import {PeliculaInterface} from '../Clase/PeliculaInterface';
+import {Http} from '@angular/http';
+
+@Component({
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css']
+})
+export class InicioComponent implements OnInit {
+  peliculas: PeliculaInterface[]= []
+  constructor(private _http: Http) { }
+
+  ngOnInit() {
+  }
+  cargarPeliculas(){
+    this._http.get('http://swapi.co/api/people/?page=2')
+    //.map(response=>response.json())
+      .subscribe(
+        //funciones anonimas http://swapi.co/api/planets/?page=2
+        (response) => {
+          console.log('Response: ', response);
+          console.log('dddd', response.json());
+          const respuesta = response.json();
+          console.log(respuesta.next);
+          this.peliculas = respuesta.results;
+          console.log(this.peliculas)
+
+        },
+        (error) => {
+          console.log('Error: ', error);
+        },
+        () => {
+          console.log('Finally');
+        }
+      )
+  }
+
+}

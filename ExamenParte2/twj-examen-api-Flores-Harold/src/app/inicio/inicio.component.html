@@ -1,0 +1,19 @@
+<body style="background-color: black">
+<div class="container">
+<div class="col-sm-12" align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/694px-Star_Wars_Logo.svg.png"></div>
+
+<br>
+<div class="row">
+
+  <div class="col-sm-4" *ngFor="let personajeVariable of personaje; let i=index; ">
+    <ul>
+      <li>
+      <app-personajes [personajesw]="personajeVariable"></app-personajes>
+
+
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+</body>
